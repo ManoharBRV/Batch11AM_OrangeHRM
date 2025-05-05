@@ -10,7 +10,7 @@ PWD = cypress
 XPIM = //li[@id='pim']
 XADD = //span[text()='Add Employee']
 XFRAME = //iframe[@id='rightMenu']
-XID = //input[@id='txtEmployeeId']
+XID = //input[@name='txtEmployeeId']
 XLAST = //input[@id='txtEmpLastName']
 XFIRST = //input[@id='txtEmpFirstName']
 XMID = //input[@id='txtEmpMiddleName']
