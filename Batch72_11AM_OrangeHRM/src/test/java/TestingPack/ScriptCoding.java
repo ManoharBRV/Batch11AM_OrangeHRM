@@ -38,9 +38,10 @@ public class ScriptCoding extends ReUsedMethods{
 		 xp("XADD").click();
 		 t(1);
 		 driver.switchTo().frame(xp("XFRAME"));
-		 xp("XID").clear();
+		 //xp("XID").clear();
+		 driver.findElement(By.name("txtEmployeeId")).clear();
 		 t(1);
-		 xp("XID").sendKeys("4488");
+		  driver.findElement(By.name("txtEmployeeId")).sendKeys("4488");
 		 xp("XFIRST").sendKeys("Rose");
 		 xp("XLAST").sendKeys("Lilly");
 		 xp("XMID").sendKeys("Jsamine");
